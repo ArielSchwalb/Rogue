@@ -39,7 +39,18 @@ h3 {
 p {
 	font-size: 0.875em;
 	line-height: 21px;
+	justify-content: left;
+    display: block;
+	text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+
+
+
 
 ul {
     margin: 0;
@@ -54,6 +65,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+	text-align: center;
 }
 
 header h1 {
@@ -104,7 +116,7 @@ header nav ul li a {
 }
 
 .main-title h2 {
-	text-align: left;
+	text-align: center;
 	padding: 5px 0;
     color: #77a466;
 }
@@ -141,6 +153,7 @@ header nav ul li a {
 .address {
 	font-size: 1em;
 	line-height: 1.5;
+	text-align: center;
 }
 
 /*The widths are in a percentage!*/
